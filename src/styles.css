@@ -1,0 +1,31 @@
+button {
+  background: none;
+  border-color: grey;
+  border-style: solid;
+  border-radius: 3px;
+}
+
+.todo-item {
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  max-width: 400px;
+}
+
+.todo-item * {
+  margin: 5px;
+}
+
+.todo-label h1{
+  font-size: 20px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.create-todo * {
+  padding: 10px;
+  margin: 10px;
+}
